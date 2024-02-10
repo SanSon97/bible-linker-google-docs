@@ -58,7 +58,7 @@ const BIBLE_DATA_SOURCES = {
           "messageBeforeSingular": "There was a problem fetching the following data source:\n\n",
           "messageAfterSingular": "\n\nIs the link accessible? Has the JSON been linted for errors?",
           "messageBeforePlural": "There were problems fetching the following data sources:\n\n",
-          "messageAfterPlural": "\n\nAre the link accessible? Has the JSON files been linted for errors?"
+          "messageAfterPlural": "\n\nAre the links accessible? Has the JSON files been linted for errors?"
         }
       }
     }
@@ -80,21 +80,21 @@ const BIBLE_DATA_SOURCES = {
     "strings": {
       "activate": {
         "appTitle": "Bible Linker",
-        "activationItem": "Activate Bible Linker",
-        "activationTitle": "Bible Linker Enabled",
-        "activationMsg": "You may now use Bible Linker. Please navigate again to the menu to use it."
+        "activationItem": "Activar Bible Linker",
+        "activationTitle": "Bible Linker Activado",
+        "activationMsg": "Ahora puedes usar Bible Linker. Por favor, vuelve a navegar al menú para usarlo."
       },
       "errors": {
         "nullBibleData": {
-          "title": "Bible data is no longer available",
-          "message": "Bible Linker will run using the default Bible data instead."
+          "title": "Los datos de la Biblia ya no están disponibles",
+          "message": "Bible Linker se ejecutará utilizando los datos predeterminados de la Biblia."
         },
         "downloadJSON": {
-          "title": "Failed to get data source",
-          "messageBeforeSingular": "There was a problem fetching the following data source:\n\n",
-          "messageAfterSingular": "\n\nIs the link accessible? Has the JSON been linted for errors?",
-          "messageBeforePlural": "There were problems fetching the following data sources:\n\n",
-          "messageAfterPlural": "\n\nAre the link accessible? Has the JSON files been linted for errors?"
+          "title": "Error al obtener la fuente de datos",
+          "messageBeforeSingular": "Hubo un problema al obtener la siguiente fuente de datos:\n\n",
+          "messageAfterSingular": "\n\n¿El enlace es accesible? ¿Se ha verificado el JSON en busca de errores?",
+          "messageBeforePlural": "Hubo problemas al obtener las siguientes fuentes de datos:\n\n",
+          "messageAfterPlural": "\n\n¿Son accesibles los enlaces? ¿Se han verificado los archivos JSON en busca de errores?"
         }
       }
     }
